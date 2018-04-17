@@ -1,0 +1,28 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "nodejs native demo with nan, boost",
+  "main": "index.js",
+  "dependencies": {
+    "bindings": "^1.3.0",
+    "boost-lib": "^0.11.3",
+    "cmake-js": "^3.6.2",
+    "nan": "^2.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.0"
+  },
+  "scripts": {
+    "compile": "cmake-js compile",
+    "install": "cmake-js compile",
+    "test": "mocha tests"
+  },
+  "keywords": [
+    "nodejs",
+    "native",
+    "addons",
+    "demo"
+  ],
+  "author": "igor.zg1987@gmail.com",
+  "license": "MIT"
+}
